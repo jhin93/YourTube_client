@@ -42,7 +42,7 @@ class Login extends Component {
             className='button'
             type='button'
             buttonText='Sign in with Google'
-            clientId='378242754412-19sv1la59k4s4krsq3koggliu94lkk84.apps.googleusercontent.com' //client ID는 config.js라는 폴더 안의 동명의 파일 안에 있음.하람님 아이디.
+            clientId='' //client ID는 config.js라는 폴더 안의 동명의 파일 안에 있음.하람님 아이디.
             onSuccess={this.handleAuthSuccess}
             onFailure={this.handleAuthFailure}
             cookiePolicy={'single_host_origin'}
