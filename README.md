@@ -12,6 +12,8 @@
 
 5. 구글 OAuth 인증으로 받은 인증 토큰으로 서버와 연동합니다.
 
+![YourTube_와이어프레임](https://user-images.githubusercontent.com/55314087/88186444-22c59900-cc70-11ea-97cf-27b4b12b4812.png)
+
 
 
 
