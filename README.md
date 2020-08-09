@@ -35,7 +35,10 @@
 
    - React를 사용하여 로그인 컴포넌트를 구현하고 라우터로 App.js와 연동합니다.
    - 구글 OAuth 인증 방식을 사용하여 구글 계정 로그인 기능을 구현합니다.
-   - 구글 OAuth 인증으로 받은 인증 토큰으로 서버와 연동합니다.
+     - 사용자(Resource Owner)는 구글(Resource Server)에게 Yourtube(Client)의 접근을 허용한다는 정보를 보냅니다. 정보는 Yourtube가 유튜브 API의 사용을 허용한다는 내용입니다.
+     - 구글은 authorization code를 사용자에게 전달하고 사용자는 이를 다시 Yourtube에 전달합니다. 
+     - Yourtube는 authorization code를 구글에 제출하고 이를 확인한 구글은 Yourtube의 접근을 승인합니다.
+     - 구글은 Yourtube에게 Access token을 발급하고 Yourtube는 이를 가지고 유튜브 API를 사용합니다.
 
 프로젝트 진행의 기준이 되었던 와이어프레임입니다. 모든 컴포넌트 간의 커뮤니케이션을 표현했습니다.
 
