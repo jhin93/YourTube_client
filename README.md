@@ -1,6 +1,6 @@
 # YourTube_client
 
-코드 스테이츠의 팀 프로젝트 'YourTube' 입니다.
+코드 스테이츠에서 진행한 팀 프로젝트 'YourTube' 입니다.
 
 Yourtube는 사용자의 유튜브 좋아요 리스트 내에서의 검색기능을 제공하는 SPA 입니다.
 
